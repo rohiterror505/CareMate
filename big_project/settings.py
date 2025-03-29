@@ -139,3 +139,18 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 
 ]
+
+# Shobhit Added
+# Define STATIC_DIR
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+
+# URL for static files
+STATIC_URL = '/static/'
+
+# Directories where Django will search for additional static files
+STATICFILES_DIRS = [
+    STATIC_DIR,
+]
+
+# Directory where 'collectstatic' will gather all static files for deployment
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # 🚀 Add this line
