@@ -589,9 +589,7 @@ def Healthy(age,veg,weight,height):
     healthycat = dataTog.iloc[[1,2,3,4,6,7,9]]
     healthycat=healthycat.T
     weightlosscatDdata=weightlosscat.to_numpy()
-    weightgaincatDdata=weig
-    
-    htgaincat.to_numpy()
+    weightgaincatDdata=weightgaincat.to_numpy()
     healthycatDdata=healthycat.to_numpy()
     weightlosscat=weightlosscatDdata[1:,0:len(weightlosscatDdata)]
     weightgaincat=weightgaincatDdata[1:,0:len(weightgaincatDdata)]

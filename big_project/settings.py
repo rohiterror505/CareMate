@@ -27,7 +27,7 @@ SECRET_KEY = "wazesxrdctvcfcytdyfcytrdfhdgythjdgfcxgdythrjdxtryhjdcx" #config('S
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 
@@ -142,15 +142,15 @@ STATICFILES_DIRS = [
 
 # Shobhit Added
 # Define STATIC_DIR
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
+# STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
-# URL for static files
-STATIC_URL = '/static/'
+# # URL for static files
+# STATIC_URL = '/static/'
 
-# Directories where Django will search for additional static files
-STATICFILES_DIRS = [
-    STATIC_DIR,
-]
+# # Directories where Django will search for additional static files
+# STATICFILES_DIRS = [
+#     STATIC_DIR,
+# ]
 
 # Directory where 'collectstatic' will gather all static files for deployment
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # 🚀 Add this line
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # 🚀 Add this line
